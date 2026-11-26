@@ -1,0 +1,30 @@
+# Local database: usernames, password hashes, uploaded text, quiz history
+gapfinder.db
+*.db
+*.sqlite3
+
+# API keys and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Your own study files (textbooks and papers may be copyrighted or private)
+uploads/
+my_data/
+*.pdf
+
+# Editor and OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Packaged copies
+*.zip
